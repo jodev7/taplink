@@ -47,6 +47,3 @@ function App() {
 }
 
 export default App;
-// //<div className='header'>
-// <h1 className='logo'>DavronNo1</h1>
-// </div>
