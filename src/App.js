@@ -1,4 +1,10 @@
 import React from 'react'
+import donate from './img/donate.png'
+import youtube from './img/youtube.png'
+import tiktok from './img/tik-tok.png'
+import instagram from './img/instagram.png'
+import discord from './img/discord.png'
+import telegram from './img/telegram.png'
 
 function App() {
   return (  //
@@ -6,41 +12,41 @@ function App() {
         <div className='row'>
         <div className='col'>
         <a className='aaa' href="https://www.donationalerts.com/c/davronno1" style={{ textDecoration: 'none' }}>
-        <img src="https://img.icons8.com/cotton/100/000000/donate--v1.png" alt=""/>
-        <h3>ДОНАТ</h3>
+        <img src={donate} alt=""/>
+        {/* <h3>ДОНАТ</h3> */}
         </a>
         </div>
         <div className='col'>
         <a className='aaa' href="https://www.youtube.com/channel/UC5r7DW3zTlzU9mfqhZVKSKw" style={{ textDecoration: 'none' }}>
-        <img src="https://img.icons8.com/color/100/000000/youtube--v3.png" alt=""/>
-        <h3>Youtube</h3>
+        <img src={youtube} alt=""/>
+        {/* <h3>Youtube</h3> */}
         </a>
         </div>
         <div className='col'>
         <a className='aaa' href="https://www.tiktok.com/@davronno1?lang=ru-RU" style={{ textDecoration: 'none' }}>
-        <img src="https://img.icons8.com/doodle/100/000000/tiktok--v2.png" alt=""/>
-        <h3>Tik Tok</h3>
+        <img src={tiktok} alt=""/>
+        {/* <h3>Tik Tok</h3> */}
         </a>
         </div>
         <div className='col'>
         <a className='aaa' href="https://www.instagram.com/davron.no1/" style={{ textDecoration: 'none' }}>
-        <img src="https://img.icons8.com/cute-clipart/100/000000/instagram-new.png" alt=""/>
-        <h3>Instagram</h3>
+        <img src={instagram} alt=""/>
+        {/* <h3>Instagram</h3> */}
         </a>
         </div>
         <div className='col'>
         <a className='aaa' href="https://discord.gg/YPjw3RZjQd" style={{ textDecoration: 'none' }}>
-        <img src="https://img.icons8.com/cute-clipart/100/000000/discord-logo.png" alt=""/>
-        <h3>Discord</h3>
+        <img src={discord} alt=""/>
+        {/* <h3>Discord</h3> */}
         </a>
         </div>
         <div className='col'>
         <a className='aaa' href="https://t.me/DavronNo1" style={{ textDecoration: 'none' }}>
-        <img src="https://img.icons8.com/cute-clipart/100/000000/telegram-app.png" alt=""/>
-        <h3>Telegram</h3>
+        <img src={telegram} alt=""/>
+        {/* <h3>Telegram</h3> */}
         </a>
         </div>
-            <h1 className='text-center'>DavronNo1</h1>
+            {/* <h1 className='text-center'>DavronNo1</h1> */}
         </div>
     </div>
   );
